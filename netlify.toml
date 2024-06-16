@@ -1,6 +1,4 @@
 [build]
+  image = "denoland/deno:ubuntu"
   publish = "_site"
   command = "ldd --version && deno task build"
-
-[build.environment]
-  DENO_VERSION = "1.44.2"
