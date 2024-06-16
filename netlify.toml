@@ -1,4 +1,4 @@
 [build]
-  image = "denoland/deno:ubuntu"
+  image = "denoland/deno:latest"
   publish = "_site"
   command = "ldd --version && deno task build"
